@@ -1,0 +1,61 @@
+\documentclass[handout]{beamer}
+
+\usepackage{parskip, subcaption}
+
+\title
+  {A life-cycle based environmental and economic assessment tool for production systems}
+
+\author
+  {Roar Nind Steffensen (s144107)}
+
+\date
+{July 2018}
+
+\institute
+  {Technical University of Denmark}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Introduction}
+Contents
+\begin{itemize}
+    \item Life Cycle Assessment - Overview
+    \item Requirements
+    \item Program Overview
+    \item Testing
+    \item Decisions
+    \item Demo
+    \item Additional Topics
+\end{itemize}
+\end{frame}
+
+\input{lca_overview.tex}
+\input{requirements.tex}
+\input{program_structure.tex}
+\input{testing.tex}
+\input{decisions.tex}
+
+\begin{frame}{}
+    \centering
+    \Huge
+    Demo
+\end{frame}
+
+\begin{frame}{}
+Additional Topics:
+\begin{itemize}
+    \item Data interpolation (between known data values)
+    \item Data extrapolation (after known interval)
+    \item Piece-wise functions (dynamic properties)
+    \item Event handling (pipelines)
+    \item Concurrency (worker thread)
+    \item Tools
+    \item Use of programming languages
+    \item Workflow / Management
+    \item Version control
+\end{itemize}
+\end{frame}
+
+\end{document}
